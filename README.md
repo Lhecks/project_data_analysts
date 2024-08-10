@@ -2,7 +2,7 @@
 
 In this project, I analyze the job market for data analysts in the USA and Canada, comparing essential factors that influence job prospects in both countries. The focus is on identifying which country offers higher revenue for specific skills, determining the key skills required to secure a job, and evaluating the advantages of working remotely versus onsite. Using visualizations created with `Matplotlib` and `Seaborn`, I provide insights into the top skills in demand, the highest-paying skills, and the distribution of job opportunities across different companies and locations.
 
-The dataset, sourced from [LukeBarousse](http://luked.co/), includes information on job postings, required skills, and salaries, enabling a comprehensive analysis of the job market for data professionals. By exploring these factors, this project aims to guide job seekers in making informed decisions about their career paths, skill development, and work preferences.
+The dataset, sourced from [LukeBarousse](https://www.lukebarousse.com/sql), includes information on job postings, required skills, and salaries, enabling a comprehensive analysis of the job market for data professionals. By exploring these factors, this project aims to guide job seekers in making informed decisions about their career paths, skill development, and work preferences.
 
 ### Insights Based on the Upcoming Charts:
 
