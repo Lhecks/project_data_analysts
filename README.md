@@ -1,9 +1,31 @@
-## Project Data Analysts:
-In this project I am analyzing the job prospectiv between `USA` and `Canada` to show which cuntry provide good revenu per skills, which skills do I need to learn to have a job, whether it's good to work as remote or to work onsite. I've used `Matplotlib` and `Seaborn` to visualize data. The dataset is coming from [LukeBarouse](http://luked.co/).
+## Data Analyst Job Prospects: USA vs. Canada
 
-Let's analyze the three charts you provided, which depict the number of jobs for each company in ```Canada``` and the ```USA```, as well as job locations in Canada.
+In this project, I analyze the job market for data analysts in the USA and Canada, comparing essential factors that influence job prospects in both countries. The focus is on identifying which country offers higher revenue for specific skills, determining the key skills required to secure a job, and evaluating the advantages of working remotely versus onsite. Using visualizations created with `Matplotlib` and `Seaborn`, I provide insights into the top skills in demand, the highest-paying skills, and the distribution of job opportunities across different companies and locations.
 
-### Chart 1: Number of Jobs for each Company in Canada
+The dataset, sourced from [LukeBarousse](http://luked.co/), includes information on job postings, required skills, and salaries, enabling a comprehensive analysis of the job market for data professionals. By exploring these factors, this project aims to guide job seekers in making informed decisions about their career paths, skill development, and work preferences.
+
+### Insights Based on the Upcoming Charts:
+
+1. **Skills in Demand Across Job Titles**:
+   - **Data Analyst**: Both in Canada and the USA, SQL, Excel, and Python are consistently the most in-demand skills for data analysts. However, Tableau is more emphasized in the USA, while Power BI and Spark are highlighted in Canada.
+   - **Data Engineer**: SQL and Python remain crucial, but cloud-based skills like AWS and Azure are also essential, reflecting the increasing demand for cloud computing expertise in this role.
+   - **Senior Data Engineer/Data Scientist**: Python and SQL are foundational, but the addition of R, Spark, and SAS for Data Scientists suggests a broader range of statistical and analytical tools are needed as you advance in your career.
+
+2. **Highest-Paying Skills**:
+   - In both countries, cloud platforms (AWS, GCP) and advanced analytical tools (Hadoop, Spark, Looker, Snowflake) are associated with higher salaries, especially in more advanced roles like Data Engineer or Senior Data Analyst. Learning these skills could significantly boost earning potential.
+   - The USA shows a higher median salary for specialized skills like DPLYR and VMware, which might indicate a more mature market with higher pay for niche skills.
+
+3. **Job Opportunities by Location and Company**:
+   - In Canada, large employers like ATB Financial and Insight Global dominate job postings, with significant opportunities also in tech hubs like Toronto, Calgary, and Vancouver. However, remote work options are also abundant.
+   - The USA offers a broader range of job opportunities, with companies like Insight Global, SynergisticIT, and UnitedHealth Group leading the way. The focus is more on urban areas, but like in Canada, remote work remains a strong option.
+
+4. **Career Path and Skill Development Recommendations**:
+   - For those entering the field, starting with Data Analyst roles and focusing on SQL, Excel, and Python is a safe bet in both countries. As you advance, learning cloud-based platforms and specialized analytical tools can open up higher-paying opportunities in Data Engineering or Data Science.
+   - Given the high demand for remote work options in both countries, developing a strong skill set that includes project management and remote collaboration tools (e.g., Git, Slack) could further enhance job prospects.
+
+This project ultimately provides a detailed comparison to help data professionals strategically plan their careers, optimize their skill sets, and choose the best working conditions to meet their personal and professional goals.
+
+### I) Chart 1: Number of Jobs for each Company in Canada
 ```
 df_plot_local = df_canada['job_location'].value_counts().head(10).to_frame()
 # sbn.set_theme(style='ticks')
@@ -25,7 +47,7 @@ sbn.despine()
 - ATB Financial is the leading company in terms of job availability in Canada.
 - The variety of companies suggests opportunities across different industries, from finance (ATB Financial) to technology (Talentify.io) and education (University of Alberta).
 
-### Chart 2: Number of Jobs for each Company in USA
+### II) Chart 2: Number of Jobs for each Company in USA
 
 ```
 
@@ -42,7 +64,7 @@ sbn.despine()
 - Insight Global has a dominant presence in the job market in the USA.
 - There are numerous opportunities in various sectors including IT (SynergisticIT, Dice), healthcare (UnitedHealth Group, Centene Corporation), and finance (Citi).
 
-### Chart 3: Number of Jobs in Canada for each Location
+### III) Chart 3: Number of Jobs in Canada for each Location
 ![Number of Jobs in Canada for each Location](images\Number_of_Jobs_in_Canada_for_each_Location.png)
 
 #### Analysis:
@@ -62,7 +84,7 @@ sbn.despine()
 - The trend towards remote work is evident in the Canadian job market, as indicated by the high number of postings for "Anywhere".
 
 
-## Chart 4:
+## IV) Chart 4:Ploting 4 in 1
 
 ### Overview:
 This image provides a detailed comparison between the top skills in demand and the highest-paid skills for Data Analysts in Canada and the USA. It highlights the differences and similarities in the job market between the two countries, helping professionals and job seekers understand where they might want to focus their learning and development efforts.
