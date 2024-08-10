@@ -36,7 +36,7 @@ plt.title('Number of Jobs in Canada for each Location')
 sbn.despine()
 ```
 
-![Number of Jobs for each Company in Canada](images\Number_of_Jobs_in_Canada_for_each_Location.png)
+![Number of Jobs for each Company in Canada](images/Number_of_Jobs_in_Canada_for_each_Location.png)
 
 #### Analysis:
 - **ATB Financial** has the highest number of job postings, significantly more than the others, with over 100 job postings.
@@ -53,7 +53,7 @@ sbn.despine()
 
 ```
 
-![Number of Jobs for each Company in USA](images\Number_of_Jobs_for_each_Companies_in_USA.png)
+![Number of Jobs for each Company in USA](images/Number_of_Jobs_for_each_Companies_in_USA.png)
 
 #### Analysis:
 - **Insight Global** leads with over 2500 job postings, followed by **SynergisticIT** and **UnitedHealth Group** with more than 2000 and 1500 postings respectively.
@@ -65,7 +65,7 @@ sbn.despine()
 - There are numerous opportunities in various sectors including IT (SynergisticIT, Dice), healthcare (UnitedHealth Group, Centene Corporation), and finance (Citi).
 
 ### III) Chart 3: Number of Jobs in Canada for each Location
-![Number of Jobs in Canada for each Location](images\Number_of_Jobs_in_Canada_for_each_Location.png)
+![Number of Jobs in Canada for each Location](images/Number_of_Jobs_in_Canada_for_each_Location.png)
 
 #### Analysis:
 - The label **Canada** indicates a general or unspecified location, leading with over 4000 job postings.
@@ -89,7 +89,7 @@ sbn.despine()
 ### Overview:
 This image provides a detailed comparison between the top skills in demand and the highest-paid skills for Data Analysts in Canada and the USA. It highlights the differences and similarities in the job market between the two countries, helping professionals and job seekers understand where they might want to focus their learning and development efforts.
 
-![Difference between USA and Canada for skills In-Demand and skills paid](images\difference_between_usa_and_canada_for_skills_in__demand_and_skills_paid_.png)
+![Difference between USA and Canada for skills In-Demand and skills paid](images/difference_between_usa_and_canada_for_skills_in__demand_and_skills_paid_.png)
 
 ```
 fig, ax = plt.subplots(2, 2, figsize=(15, 10))
@@ -168,10 +168,10 @@ This comparison provides valuable insights into the current data analytics job m
 ## 5: Still working Skills but now using the Percentages 
 ### Analysis of Skills In-Demand for Data Roles in Canada and the USA
 #### Canada's Top Three Job Titles and Most Sought-After Skills (Percentage Breakdown)
-![Precentages Skills In-Demand - Canada](images\Skills_In___Demand_in_Canada_for_The_Top_Three_Job_Title_Using_Perecentages.png)
+![Precentages Skills In-Demand - Canada](images/Skills_In___Demand_in_Canada_for_The_Top_Three_Job_Title_Using_Perecentages.png)
 
 #### USA's Top Three Job Titles and Most Sought-After Skills (Percentage Breakdown)
-![Precentages Skills In-Demand - USA](images\Skills_In___Demand_in_USA_for_The_Top_Three_Job_Title_Using_Percentages.png)
+![Precentages Skills In-Demand - USA](images/Skills_In___Demand_in_USA_for_The_Top_Three_Job_Title_Using_Percentages.png)
 #### **Canada:**
 - **Data Analyst:**
   - **Top Skill:** SQL (15%)
@@ -214,5 +214,3 @@ This comparison provides valuable insights into the current data analytics job m
 - **Entry-Level Data Analyst:** Focus on mastering SQL, Excel, and Tableau to build a strong foundation.
 - **Transition to Data Engineering:** Build on SQL and Python proficiency while gaining expertise in cloud platforms like AWS or Azure.
 - **Advanced Roles (Data Scientist or Senior Data Engineer):** Deepen Python skills, add statistical tools like R, and gain extensive experience in cloud computing and big data technologies like Spark.
-
-This approach would provide a robust skill set tailored to market demands in both Canada and the USA, optimizing job prospects and career growth in the data field.
